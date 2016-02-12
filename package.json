@@ -1,6 +1,6 @@
 {
   "name": "s3-direct-policy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Creates an S3 policy for uploading directly to S3",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/dallasread/s3-direct-policy/issues"
   },
-  "homepage": "https://github.com/dallasread/s3-direct-policy#readme"
+  "homepage": "https://github.com/dallasread/s3-direct-policy#readme",
+  "dependencies": {
+    "generate-js": "^2.1.3"
+  }
 }
